@@ -40,7 +40,7 @@ Teknologi:
 
 # Other menu
 <p align="center">
-  <img src="(https://user-images.githubusercontent.com/33746018/56710636-57872f80-6751-11e9-844f-4ca6e8768139.jpg" align="middle" width="350" height="550" />
+  <img src="https://user-images.githubusercontent.com/33746018/56710636-57872f80-6751-11e9-844f-4ca6e8768139.jpg" align="middle" width="350" height="550" />
 </p>
 
 # Edit profile
