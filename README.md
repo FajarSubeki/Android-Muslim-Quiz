@@ -24,4 +24,4 @@ Teknologi:
 - Sqlite
 
 # Login screen
-<img src=(https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" width="200" height="400" />
