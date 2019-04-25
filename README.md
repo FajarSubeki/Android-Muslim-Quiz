@@ -24,11 +24,8 @@ Teknologi:
 - Sqlite
 
 # Login screen
+<!--      <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" /> -->
 <div style="display:block; width:100%;">
-  <div style="width:50%; float: left; display: inline-block;">
-     <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
-  </div>
-  <div style="width:50%; float: left; display: inline-block;">
-     <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
-  </div>
+  <div style="width:50%; float: left; display: inline-block;">Your content</div>
+  <div style="width:50%; float: left; display: inline-block;">Your content</div>
 </div>
