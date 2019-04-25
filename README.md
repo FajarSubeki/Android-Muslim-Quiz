@@ -32,3 +32,78 @@ Teknologi:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
 </p>
+
+# Lupa password
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Halaman utama
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Other menu
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Edit profile
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Papan koin
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Maing game Level easy
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Main game level medium
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Main game level hard
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Jawaban benar
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Jawaban salah
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Finish game screen
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Waktu habis screen
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Kategori video
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Alert Video
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
+
+# Video play
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+</p>
