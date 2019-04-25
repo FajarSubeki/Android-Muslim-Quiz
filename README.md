@@ -80,7 +80,7 @@ Teknologi:
 
 # Finish game screen
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33746018/56710798-075c9d00-6752-11e9-9ef1-db5ab6564197.jpg" />
+  <img src="https://user-images.githubusercontent.com/33746018/56710798-075c9d00-6752-11e9-9ef1-db5ab6564197.jpg" align="middle" width="350" height="550"/>
 </p>
 
 # Waktu habis screen
