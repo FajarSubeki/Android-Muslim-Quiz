@@ -30,22 +30,17 @@ Teknologi:
 
 # Register screen
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
-</p>
-
-# Lupa password
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+  <img src="https://user-images.githubusercontent.com/33746018/56710554-f8c1b600-6750-11e9-9d2c-08cb2b3aa353.jpg" align="middle" width="350" height="550" />
 </p>
 
 # Halaman utama
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+  <img src="https://user-images.githubusercontent.com/33746018/56710607-33c3e980-6751-11e9-8782-3a79b47c4fa6.jpg" align="middle" width="350" height="550" />
 </p>
 
 # Other menu
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33746018/56709913-f6119180-674d-11e9-806d-03b59907f9f8.jpg" align="middle" width="350" height="550" />
+  <img src="(https://user-images.githubusercontent.com/33746018/56710636-57872f80-6751-11e9-844f-4ca6e8768139.jpg" align="middle" width="350" height="550" />
 </p>
 
 # Edit profile
