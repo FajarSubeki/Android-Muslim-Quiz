@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "181856361201",
+    "firebase_url": "https://muslim-quiz-d89fd.firebaseio.com",
+    "project_id": "muslim-quiz-d89fd",
+    "storage_bucket": "muslim-quiz-d89fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181856361201:android:41a03d019ce62155",
+        "android_client_info": {
+          "package_name": "com.example.muslimquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181856361201-rom558au21d42fl0tmmjfebusispae1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muslimquiz",
+            "certificate_hash": "55ee2df9fc407dca5a077f9d5d14aae933f77b9f"
+          }
+        },
+        {
+          "client_id": "181856361201-05r57s8v3c2mslkqa3r7d6ipsg2ppckv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxL5nilzNzlvXU29TWoF0-btpya89dxWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181856361201-05r57s8v3c2mslkqa3r7d6ipsg2ppckv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

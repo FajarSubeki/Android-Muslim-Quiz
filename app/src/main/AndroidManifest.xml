@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muslimquiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- OPTIONAL for storing in local storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ProfileActivity"></activity>
+        <activity
+            android:name=".ui.MainGameHardHadist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.MainGameHadistMedium"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.MainGameHadistEasy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.tab.Hadist.HadistHardTab" />
+        <activity android:name=".ui.tab.Hadist.HadistMediumTab" />
+        <activity android:name=".ui.tab.Hadist.HadistEasyTab" />
+        <activity
+            android:name=".holder_activity.HadistSlide"
+            android:theme="@style/quran" />
+        <activity
+            android:name=".ui.ResetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.SignInActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.VideoListActivity" />
+        <activity
+            android:name=".ui.ChooseVideoCategory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.MainGameMediumActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.MainGameHardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.SettingActivity" />
+        <activity android:name=".ui.HighScoreActivity" />
+        <activity
+            android:name=".ui.OtherMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.PlayAgain" />
+        <activity
+            android:name=".ui.GameWon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.TimeUp" />
+        <activity
+            android:name=".ui.MainGameActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".holder_activity.QuranSlide"
+            android:theme="@style/quran" />
+        <activity android:name=".ui.tab.QuranHardTab" />
+        <activity android:name=".ui.tab.QuranMediumTab" />
+        <activity android:name=".ui.tab.QuranEasyTab" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

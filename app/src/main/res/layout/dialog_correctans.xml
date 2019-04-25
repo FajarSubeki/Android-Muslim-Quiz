@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:id="@+id/relac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/correct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benar"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorCyan"
+            android:gravity="center"
+            android:textSize="35sp"/>
+
+        <TextView
+            android:layout_below="@id/correct"
+            android:id="@+id/answercorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="5dp"
+            android:text="Albert Einstein"
+            android:textSize="25sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_below="@id/answercorrect"
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            app:lottie_fileName="check.json"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="true"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imageView"
+            android:id="@+id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjut"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/montserrat"/>
+
+        <View
+            android:layout_below="@id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

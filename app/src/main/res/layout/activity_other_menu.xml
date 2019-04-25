@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".ui.OtherMenuActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:minHeight="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/iv_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Go back"
+            android:src="@drawable/ic_close_black_24dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avatarr"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:id="@+id/tv_fullnameuser"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fajar Subeki"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_sum_koin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 Koin"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat"/>
+
+        <TextView
+            android:id="@+id/tv_profile"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_high_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Papan Koin"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagikan"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tukar Koin"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_above="@id/relaa"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLine" />
+
+        <RelativeLayout
+            android:id="@+id/relaa"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_settings_black_24dp"/>
+
+            <TextView
+                android:id="@+id/tv_setting"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengaturan"
+                android:fontFamily="@font/montserrat"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_keluar"
+                android:src="@drawable/ic_sign_out_option"/>
+
+            <TextView
+                android:id="@+id/tv_keluar"
+                android:layout_width="wrap_content"
+                android:paddingRight="7dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/montserrat"
+                android:text="Keluar"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

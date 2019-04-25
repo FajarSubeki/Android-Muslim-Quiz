@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Muslim Quiz</string>
+    <string name="timeup">Time Up</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="minimum_password">Password terlalu pendek, masukan minimal 6 karakter</string>
+    <string name="resetpassword">Kami hanya perlu id email terdaftar Anda untuk mengirim petunjuk reset kata sandi Anda</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    app:cardCornerRadius="15dp"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/relac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+       >
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/title_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tonton Video Ngaji?"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorCyan"
+            android:gravity="center"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/correctDescription"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_Text"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="Tonton Video dengan menukar poin anda sebanyak 30"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/correctDescription"
+            android:id="@+id/dialog_lanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjut"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/montserrat"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

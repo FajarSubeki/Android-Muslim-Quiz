@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBg"
+    tools:context=".ui.ChooseVideoCategory">
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:background="@color/colorCyan"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/iv_backcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Go back"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/iv_backcategory"
+            android:id="@+id/triviaQuizText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/timeText"
+            android:text="Pilih Video"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_lock"
+            android:id="@+id/tv_point_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_lock"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_name_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_coinn"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/rela"
+        android:id="@+id/rela_video_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+</RelativeLayout>
