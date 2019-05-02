@@ -5,6 +5,11 @@ Selain itu, diaplikasi ini juga disajikan video dan gambar mengenai materi konte
 Ketika quizzer(nama panggilan supaya akrab :v) memainkan game ini dan memenangkan koin, koin akan dijumlahkan dari semua level game quiz yang telah dimainkan. Setelah koin sudah lumayan banyak,
 quizzer ingin melihat video dan gambar dengan cara menukarkan koin tersebut.
 
+Teknologi
+1. Java
+2. Sqlite
+3. Firebase
+
 Detail sistem / Fitur:
 1. Login, register, forgot password menggunakan firebase
 2. Halaman utama / Kategori game quiz (Tafsir Quran, Tafsir Hadits, Sejarah, Sunnah, Tauhid, Fiqih)
